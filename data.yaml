@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Can', 'Glass Bottle', 'Glass Cup', 'Others', 'Paper', 'Plastic Bag', 'Plastic Bottle', 'Plastic Cup', 'Plastic Packaging', 'Styrofoam']
+
+roboflow:
+  workspace: smartbin-sven-tech
+  project: smartbin-hzf0g
+  version: 10
+  license: Private
+  url: https://app.roboflow.com/smartbin-sven-tech/smartbin-hzf0g/10
